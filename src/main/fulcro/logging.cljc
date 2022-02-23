@@ -13,8 +13,8 @@
     [clojure.string :as str]
     [clojure.stacktrace :as strace]
     #?@(:cljs ([goog.log :as glog]
-                [goog.object :as gobj]
-                [goog.debug.Logger.Level :as level])))
+               [goog.object :as gobj]
+               [goog.log.Level :as level])))
   #?(:cljs (:import [goog.debug Console])))
 
 (def logging-priority {:all 100 :trace 6 :debug 5 :info 4 :warn 3 :error 2 :fatal 1 :none 0})

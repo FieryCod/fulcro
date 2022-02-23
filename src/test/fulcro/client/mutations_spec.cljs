@@ -2,7 +2,7 @@
   (:require
     [fulcro-spec.core :refer [specification provided behavior assertions component when-mocking]]
     [fulcro.client.mutations :as m :refer [defmutation]]
-    [goog.debug.Logger.Level :as level]
+    [goog.log.Level :as level]
     [fulcro.client.impl.data-fetch :as df]
     [fulcro.client]
     [fulcro.client.dom :as dom]
